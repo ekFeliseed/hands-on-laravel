@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Tsuchiya', function () {
+Route::get('/Kusunoki', function () {
     return view('welcome');
 });
 
