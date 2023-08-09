@@ -17,8 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Kusunoki', function () {
-    return view('welcome');
-});
+
+// 自分の名前で (/emilien) Controllerを介して　事項紹介的なview (HTML page) .blade.php を返す
+
+
 
 Route::get('/test', [App\Http\Controllers\TestController::class, 'index']);
